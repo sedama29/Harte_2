@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "31462645493",
+    "project_id": "harte-be894",
+    "storage_bucket": "harte-be894.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31462645493:android:7fe4e28e080e6a3ac3afbc",
+        "android_client_info": {
+          "package_name": "com.harte"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "31462645493-md8i8ref0d6ro56qjl3h7c6temlgv3la.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.harte",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "31462645493-mn84svkckvu16koamr4aaq64lq5loj6i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.harte",
+            "certificate_hash": "9200e5a4854100bef74cfd1c7e71a38d9a0ee9e0"
+          }
+        },
+        {
+          "client_id": "31462645493-37t5n59nrg8e14esnmjfvka0608ehfse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7tYFabjAkXGXfU0fgDX1Lcus6kcHMc8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "31462645493-37t5n59nrg8e14esnmjfvka0608ehfse.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "31462645493-c786nkss2dsbd55oq8u8lkvsldhh0a6i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.harte"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
