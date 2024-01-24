@@ -1,6 +1,6 @@
 # Override Firebase SDK Version
-$FirebaseSDKVersion = '10.20.0'
-pod 'GTMSessionFetcher/Core', '2.1.0' # Pick a version that satisfies all constraints
+# $FirebaseSDKVersion = '10.20.0'
+# pod 'GTMSessionFetcher/Core', '3.2.0' # Pick a version that satisfies all constraints
 # Resolve react_native_pods.rb with node to allow for hoisting
 require Pod::Executable.execute_command('node', ['-p',
   'require.resolve(
@@ -29,6 +29,8 @@ if linkage != nil
 end
 
 target 'Harte' do
+  use_frameworks! :linkage => :static
+  $RNFirebaseAsStaticFramework = true
   config = use_native_modules!
   
   use_react_native!(
@@ -39,10 +41,9 @@ target 'Harte' do
     # you should disable the next line.
     # :flipper_configuration => flipper_config,
     # An absolute path to your application root.
+    # :fabric_enabled => false,
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
-  use_frameworks! :linkage => :static
-  $RNFirebaseAsStaticFramework = true
 
   target 'HarteTests' do
     inherit! :complete
